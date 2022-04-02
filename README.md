@@ -5,13 +5,17 @@ This repository is for Panini-Net introduced in the following paper
 Yinhuai Wang, Yujie Hu, [Jian Zhang](http://jianzhang.tech/), "Panini-Net: GAN Prior based Degradation-Aware Feature Interpolation for Face Restoration", AAAI 2022, [[arxiv]](https://arxiv.org/pdf/2203.08444.pdf)
 
 
-##### Face Restoration
+#### Face Restoration
+<img src="figs/MFR.png">
 
-##### Face Super-Resolution
+#### Face Super-Resolution
+<img src="figs/16xSR.png">
 
 ## Introduction
 
 Emerging high-quality face restoration (FR) methods often utilize pre-trained GAN models (i.e., StyleGAN2) as GAN Prior. However, these methods usually struggle to balance realness and fidelity when facing various degradation levels. Besides, there is still a noticeable visual quality gap compared with pre-trained GAN models. In this paper, we propose a novel GAN Prior based degradation-aware feature interpolation network, dubbed Panini-Net, for FR tasks by explicitly learning the abstract representations to distinguish various degradations. Specifically, an unsupervised degradation representation learning (UDRL) strategy is first developed to extract degradation representations (DR) of the input degraded images. Then, a degradation-aware feature interpolation (DAFI) module is proposed to dynamically fuse the two types of informative features (i.e., features from input images and features from GAN Prior) with flexible adaption to various degradations based on DR. Ablation studies reveal the working mechanism of DAFI and its potential for editable FR. Extensive experiments demonstrate that our Panini-Net achieves state-of-the-art performance for multi-degradation face restoration and face super-resolution.
+
+<img src="figs/panini.png">
 
 **Figure:** *Overview of Panini-Net*
 
@@ -30,7 +34,7 @@ This code is based on MMEditing. Please refer to [install.md](https://github.com
 
 This code uses [FFHQ](https://github.com/NVlabs/ffhq-dataset) for training and [CelebA-HQ](https://github.com/tkarras/progressive_growing_of_gans) for testing.
 
-After downloading and degenerating the data set, we put the datasets into `data/`
+After downloading and degenerating the datasets, we put the datasets into `data/`
 
 ## Test Using Pretrained Models
 
