@@ -38,7 +38,7 @@ After downloading and degenerating the datasets, we put the datasets into `data/
 
 ## Test Using Pretrained Models
 
-Download our pre-trained model ([moco](), [panini_mfr](), [panini_16xsr]()) and put them into `checkpoint/`
+Download our pre-trained model ([moco](https://drive.google.com/file/d/1VqFRXJGlDcn1zbT0eT7tAuclh6tgvvHA/view?usp=sharing), [panini_mfr](https://drive.google.com/file/d/1iwiWoAxNTyp3NKHQfCj0FCEX9uwX27CQ/view?usp=sharing), [panini_16xsr](https://drive.google.com/file/d/1ewSBfxXJmDMioGx95lLvD95l8lhgPaGU/view?usp=sharing)) and put them into `checkpoint/`
 
 You can use scripts in file `test_script.sh` to test.
 
