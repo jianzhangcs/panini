@@ -29,7 +29,7 @@ git clone https://github.com/jianzhangcs/panini.git
 cd panini
 ```
 
-This code is based on MMEditing. Please refer to [install.md](https://github.com/open-mmlab/mmediting/blob/master/docs/en/install.rst) to install dependencies.
+This code is based on MMEditing. Please refer to [install.md](https://github.com/open-mmlab/mmediting/blob/master/docs/en/install.md) to install dependencies.
 
 ## Dataset
 
