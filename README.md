@@ -4,6 +4,17 @@ This repository is for Panini-Net introduced in the following paper
 
 Yinhuai Wang, Yujie Hu, [Jian Zhang](http://jianzhang.tech/), "Panini-Net: GAN Prior based Degradation-Aware Feature Interpolation for Face Restoration", AAAI 2022, [[arxiv]](https://arxiv.org/pdf/2203.08444.pdf)
 
+# Fork: I updated the code to fix the issue that was faced when running in colab
+
+[Iftekher Toufique Imam](https://github.com/toufique-imam)
+
+---
+
+[![GitHub Stars](https://img.shields.io/github/stars/toufique-imam/panini?style=social)](https://github.com/caojiezhang/DAVSR)
+[![download](https://img.shields.io/github/downloads/toufique-imam/panini/total.svg)](https://github.com/caojiezhang/DAVSR/releases)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=toufique-imam/panini)
+
+
 [Colab Demo](https://colab.research.google.com/drive/186NbVKEOmTzX58OANKLwn1-DVbeugClz?usp=sharing) for Panini-Net Face Restoration & Super Resolution! <a href="https://colab.research.google.com/drive/186NbVKEOmTzX58OANKLwn1-DVbeugClz?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>.
 
 #### Face Restoration
